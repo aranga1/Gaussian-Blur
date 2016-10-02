@@ -6,7 +6,7 @@ import javax.swing.*;
 
 public class ImageFilterClient {
 	public static void main(String[] args) {
-
+		System.out.println("yayaya")l
 		File f = new File("Noisy.jpg");
 		LoadImage img = new LoadImage(f);
 		BufferedImage originalImage = img.getOriginalImage();
